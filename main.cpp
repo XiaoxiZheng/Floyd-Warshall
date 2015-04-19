@@ -97,7 +97,8 @@ int main(){
             cout<< "cost = "<< graph[num1][num2]<<endl<<dist[num1][num2]<<endl;
         }
     }
-
+ //Print out the actual matrix for debugging purposes
+/*
     cout<<"Path matrix"<<endl;
     for(int i = 1; i <vertices; i++){
         for(int j = 1; j <vertices; j++){
@@ -114,6 +115,6 @@ int main(){
         }
         cout << endl;
     }
-
+*/
     return 0;
 }
