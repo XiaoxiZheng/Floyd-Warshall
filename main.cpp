@@ -33,7 +33,7 @@ int main(){
     }
     // initialize distances
     //the dist by default is what's passed in from user
-    cout<<"Please enter ABC information"<<endl;
+    //cout<<"Please enter ABC information"<<endl;
     int a,b,c;
     for(int i=1; i<=edges; i++){
         cin>>a>>b>>c;
@@ -56,7 +56,7 @@ int main(){
     }
     //Queries
     int num1, num2;
-    cout<<"Please enter your queries"<<endl;
+    //cout<<"Please enter your queries"<<endl;
     for(int x = 1; x<=queries; x++){
        // string path; // a temp variable that stores all the string for the path
         cin >> num1;
